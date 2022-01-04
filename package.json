@@ -1,7 +1,17 @@
 {
   "name": "crm-module",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "crm模块页面",
+  "main": "lib/index.min.js",
+  "module": "lib/index.esm.js",
+  "typings": "lib/index.d.ts",
+  "keywords": ["vue", "crm"],
+  "license": "MIT",
+  "author": {
+    "name": "zhangweidong",
+    "email": "weidong.zhang@uhomes.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
